@@ -1,9 +1,19 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to right, rgb(32, 9, 88),rgb(94, 17, 172));
   height: calc(100vh);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr 2fr 1fr;
   grid-gap: 5px;
+}
+
+.particles
+{
+  position: fixed;
+  background-image: linear-gradient(to right, rgb(32, 9, 88),rgb(94, 17, 172));
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }

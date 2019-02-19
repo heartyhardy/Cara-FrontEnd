@@ -1,27 +1,26 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
 import Navbar from './components/navbar/navbar';
 import Logo from './components/logo/logo';
 import ImageLink from './components/imagelink/imagelink';
 import Rank from './components/rank/rank';
+import Title from './components/title/title';
+import * as tilt_config from './config/tiltjs-config.json';
+import * as particlejs_config from './config/particlesjs-config.json';
+
 import './App.css';
 
-const tiltoptions = {
-  reverse:        false,  // reverse the tilt direction
-  max:            60,     // max tilt rotation (degrees)
-  perspective:    60,   // Transform perspective, the lower the more extreme the tilt gets.
-  scale:          1,      // 2 = 200%, 1.5 = 150%, etc..
-  speed:          2000,    // Speed of the enter/exit transition
-  transition:     true,   // Set a transition on enter/exit.
-  axis:           null,   // What axis should be disabled. Can be X or Y.
-  reset:          true,    // If the tilt effect has to be reset on exit.
-  easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
-}
-
-class App extends Component {
+class App extends Component {  
   render() {
+
+    const tiltoptions = tilt_config.tiltoptions;
+    const particlejsoptions= particlejs_config.config;
+
     return (
       <div className="App">
+        <Particles className="particles" params={particlejsoptions}/>
         <Navbar />
+        <Title />
         <Logo tiltOptions={tiltoptions}/>
         <Rank tiltOptions={tiltoptions}/>
         <ImageLink />
