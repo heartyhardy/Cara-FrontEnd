@@ -2,4 +2,43 @@
 {
     grid-column: 3/4;
     grid-row: 2/3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.rankelements
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+    margin-left: 3vw;
+    background-color: mediumturquoise;
+    border-radius: 50%;
+    border: 3px solid rgb(11, 3, 44);
+    box-shadow: 2px 2px 20px rgba(12, 1, 29, 0.692);
+    text-shadow: 3px 3px 10px rgba(255, 68, 0, 0.699);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 1s linear, border-color 1s linear, box-shadow 1s linear, text-shadow 1s linear;
+}
+.rankelements:hover
+{
+    cursor: none;
+    background-color: rgb(238, 132, 11);
+    box-shadow: 2px 2px 20px rgba(255, 68, 0, 0.829);
+    border: 3px solid rgb(172, 83, 0);
+    text-shadow: 4px 4px 20px rgb(255, 226, 98);
+    transition: all 1s linear;
+}
+
+
+.rankicon
+{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 2.8em;
 }

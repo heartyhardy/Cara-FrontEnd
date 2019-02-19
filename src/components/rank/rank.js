@@ -1,10 +1,15 @@
 import React from 'react';
+import Tilt from 'react-tilt';
 import './rank.css';
 
-const Rank = () => {
+const Rank = ({tiltOptions}) => {
     return(
         <div className="rankcontainer">
-            <p>Rank #100</p>
+            <div className="rankelements">
+                <Tilt className="Tilt" options={tiltOptions} >
+                    <div className="Tilt-inner rankicon"> 🥇 </div>
+                </Tilt>
+            </div>
         </div>
     );
 }
