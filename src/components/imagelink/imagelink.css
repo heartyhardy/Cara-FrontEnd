@@ -1,0 +1,89 @@
+.imagelinkcontainer
+{
+    grid-column: 2/3;
+    grid-row: 3/span 2;
+}
+
+@keyframes imagelinkformappear
+{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.imagelinkform
+{
+    animation: imagelinkformappear;
+    animation-duration: 2s;
+}
+
+@keyframes captionanimation{
+    0% {color:goldenrod; opacity: 0}
+    25% {color:orange}
+    50% {color: gold}
+    100% { color:lightgoldenrodyellow; opacity: 1;}
+}
+.formlinkcaption
+{
+    color:lightgoldenrodyellow;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: captionanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    user-select: none;
+}
+
+.forminputs
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formlinkurl
+{
+    border: 2px solid lightgoldenrodyellow;
+    background-color: rgb(14, 3, 39);
+    border-radius: 5px 2px 10px 2px;
+    width: 80%;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color:lightsalmon;
+    outline: none;
+    transition: border-color 1s ease-in;
+}
+.formlinkurl:hover
+{
+    border-color: rgb(250, 169, 92);
+    transition: border-color 1s ease-in;
+}
+
+.formlinkdetect
+{
+    text-align: center;
+    border-radius: 100%;
+    border: 3px solid rgb(11, 3, 44);
+    box-shadow: 2px 2px 20px rgba(12, 1, 29, 0.692);
+    text-shadow: 1px 0px 2px rgba(16, 1, 39, 0.699);
+    background-color: mediumturquoise;
+    color:rgb(5, 5, 41);
+    font-size: 1.5em;
+    font-family: 'Anton', sans-serif;
+    outline: none;
+    height: 12vh;
+    width: 12vh;
+    padding: 10px;
+    margin-top: 20px;
+    transition: background-color 1s ease, border-color 1s ease, box-shadow 1s ease;
+}
+.formlinkdetect:hover
+{
+    color: gold;
+    background-color: rgb(238, 132, 11);
+    box-shadow: 2px 2px 20px rgba(255, 68, 0, 0.829);
+    border: 3px solid rgb(172, 83, 0);
+    text-shadow: 4px 4px 20px rgb(255, 226, 98);
+    cursor: none;
+    transition: all 1s linear;
+}

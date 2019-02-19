@@ -1,0 +1,47 @@
+.navbar
+{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(15, 3, 44, 0.9),rgba(60, 8, 112, 0.5));
+    box-shadow: 2px 0 5px rgba(11, 0, 24, 0.733);
+}
+
+.navlist
+{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display:flex;
+}
+
+.navlistelement
+{
+    padding: 2.5vh 3vw 2.5vh 3vw;
+    margin-left: 1.5vw;
+}
+
+.corner
+{
+    margin-left: auto;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color:lightgoldenrodyellow;
+    user-select: none;
+    cursor: pointer;
+}
+
+a:visited
+{
+    color:lightgoldenrodyellow;
+}
+
+a:hover
+{
+    color:  rgb(253, 182, 100);
+}

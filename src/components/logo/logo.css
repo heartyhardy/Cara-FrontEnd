@@ -1,0 +1,37 @@
+.logocontainer
+{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    height: 64px;
+    width: 64px;
+    padding: 10px;
+    margin-left: 3vw;
+    align-items: center;
+    justify-content: center;
+    /* background-image:radial-gradient(mediumaquamarine, mediumturquoise, rgb(19, 91, 94)); */
+    background-color: mediumturquoise;
+    border-radius: 50%;
+    border: 3px solid rgb(11, 3, 44);
+    box-shadow: 2px 2px 20px rgba(12, 1, 29, 0.692);
+    text-shadow: 3px 3px 10px rgba(255, 68, 0, 0.699);
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 1s linear, border-color 1s linear, box-shadow 1s linear, text-shadow 1s linear;
+}
+.logocontainer:hover
+{
+    cursor: none;
+    /* background-image:radial-gradient(gold, rgb(255, 125, 50), rgba(56, 0, 9, 0.856)); */
+    background-color: rgb(238, 132, 11);
+    box-shadow: 2px 2px 20px rgba(255, 68, 0, 0.829);
+    border: 3px solid rgb(172, 83, 0);
+    text-shadow: 4px 4px 20px rgb(255, 226, 98);
+    transition: all 1s linear;
+}
+
+.icon
+{
+    text-align: center;
+    font-size: 3em;
+}
