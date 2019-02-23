@@ -1,0 +1,48 @@
+.imgopsbarcontainer
+{
+    grid-column: 2/3;
+    grid-row: 4/span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgopsbar{
+    background-image: linear-gradient(to right, rgba(15, 3, 44, 0.9),rgba(60, 8, 112, 0.5));
+    box-shadow: 2px 0 5px rgba(11, 0, 24, 0.733);
+    border-radius: 15px 5px 15px 5px;
+    width: 50%;
+}
+
+.navlist
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navlistelement
+{
+    padding: 10px;
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    color:lightgoldenrodyellow;
+    user-select: none;
+    cursor: pointer;
+    transition: color 1s ease-in-out;
+}
+.navlistelement:hover
+{
+    color: orange;
+    text-shadow: 2px 2px 5px rgb(24, 16, 0);
+    cursor: pointer;
+    transition: color 1s ease-in-out;
+}
+
+.corner
+{
+    margin-left: auto;
+}
