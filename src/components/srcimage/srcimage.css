@@ -7,11 +7,11 @@
 .imagecontrols
 {
     position: absolute;
-    margin-left: calc(50% - 400px - 400px/2);
+    margin-left: calc(100vmin - 60vmin - 60vmin/4);
 }
 .image
 {
-    width: 40vw;
+    width: 60vmin;
     height: auto;
     align-self: center;
     justify-self: center;

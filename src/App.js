@@ -12,7 +12,6 @@ import * as tilt_config from './config/tiltjs-config.json';
 import * as particlejs_config from './config/particlesjs-config.json';
 
 import './App.css';
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from 'constants';
 
 const app = new Clarifai.App({
   apiKey: 'e443ade726174d0bad66bee03360ff12'

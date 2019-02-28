@@ -8,10 +8,11 @@
 }
 
 .imgopsbar{
-    background-image: linear-gradient(to right, rgba(15, 3, 44, 0.9),rgba(60, 8, 112, 0.5));
-    box-shadow: 2px 0 5px rgba(11, 0, 24, 0.733);
+    background-image: linear-gradient(to right, rgba(15, 3, 44, 0.8),rgba(60, 8, 112, 0.4));
+    box-shadow: 2px 0 5px rgba(11, 0, 24, 0.7337);
     border-radius: 15px 5px 15px 5px;
     width: 50%;
+    z-index: 0;
 }
 
 .navlist
