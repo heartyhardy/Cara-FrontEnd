@@ -1,13 +1,13 @@
 {
-  "main.css": "/cara-alpha/static/css/main.8b533e1e.chunk.css",
-  "main.js": "/cara-alpha/static/js/main.5981c60a.chunk.js",
-  "main.js.map": "/cara-alpha/static/js/main.5981c60a.chunk.js.map",
-  "runtime~main.js": "/cara-alpha/static/js/runtime~main.716061ab.js",
-  "runtime~main.js.map": "/cara-alpha/static/js/runtime~main.716061ab.js.map",
-  "static/js/2.4031158a.chunk.js": "/cara-alpha/static/js/2.4031158a.chunk.js",
-  "static/js/2.4031158a.chunk.js.map": "/cara-alpha/static/js/2.4031158a.chunk.js.map",
-  "index.html": "/cara-alpha/index.html",
-  "precache-manifest.c24ea5934a3e0541486e2b1cf7d555d6.js": "/cara-alpha/precache-manifest.c24ea5934a3e0541486e2b1cf7d555d6.js",
-  "service-worker.js": "/cara-alpha/service-worker.js",
-  "static/css/main.8b533e1e.chunk.css.map": "/cara-alpha/static/css/main.8b533e1e.chunk.css.map"
+  "main.css": "/Cara-FrontEnd/static/css/main.8b533e1e.chunk.css",
+  "main.js": "/Cara-FrontEnd/static/js/main.f894b6ba.chunk.js",
+  "main.js.map": "/Cara-FrontEnd/static/js/main.f894b6ba.chunk.js.map",
+  "runtime~main.js": "/Cara-FrontEnd/static/js/runtime~main.c0d779a6.js",
+  "runtime~main.js.map": "/Cara-FrontEnd/static/js/runtime~main.c0d779a6.js.map",
+  "static/js/2.2b35df61.chunk.js": "/Cara-FrontEnd/static/js/2.2b35df61.chunk.js",
+  "static/js/2.2b35df61.chunk.js.map": "/Cara-FrontEnd/static/js/2.2b35df61.chunk.js.map",
+  "index.html": "/Cara-FrontEnd/index.html",
+  "precache-manifest.eafcd432f84769e8d1b44c98390371e1.js": "/Cara-FrontEnd/precache-manifest.eafcd432f84769e8d1b44c98390371e1.js",
+  "service-worker.js": "/Cara-FrontEnd/service-worker.js",
+  "static/css/main.8b533e1e.chunk.css.map": "/Cara-FrontEnd/static/css/main.8b533e1e.chunk.css.map"
 }

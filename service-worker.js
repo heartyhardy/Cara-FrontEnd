@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cara-alpha/precache-manifest.c24ea5934a3e0541486e2b1cf7d555d6.js"
+  "/Cara-FrontEnd/precache-manifest.eafcd432f84769e8d1b44c98390371e1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cara-alpha/index.html", {
+workbox.routing.registerNavigationRoute("/Cara-FrontEnd/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
