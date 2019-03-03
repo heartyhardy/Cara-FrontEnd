@@ -2,7 +2,7 @@
   "name": "cara",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://heartyhardy.github.io/cara-alpha",
+  "homepage": "http://heartyhardy.github.io/Cara-FrontEnd",
   "dependencies": {
     "clarifai": "^2.9.0",
     "react": "^16.8.2",
