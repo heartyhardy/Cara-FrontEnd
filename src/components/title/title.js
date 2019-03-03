@@ -1,9 +1,9 @@
 import React from 'react';
 import './title.css';
 
-const Title = ({isTitleVisible}) => {
+const Title = ({isVisible}) => {
     return(
-        <div className="titlecontainer" hidden={!isTitleVisible}>
+        <div className="titlecontainer" hidden={!isVisible}>
             <p className="title">CARA</p>
         </div>
     );

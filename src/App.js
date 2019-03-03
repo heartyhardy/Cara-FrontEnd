@@ -84,7 +84,7 @@ class App extends Component {
       <div className="App">
         <Particles className="particles" params={particlejsoptions}/>
         <Navbar />
-        <Title isVisible = {this.isTitleVisible}/>
+        <Title isVisible = {this.state.isTitleVisible}/>
         <Logo tiltOptions={tiltoptions}/>
         <Rank tiltOptions={tiltoptions}/>
         <ImageLink isVisible={this.state.isImageLinkVisible} onChange = {this.onUrlChange} onSubmit = {this.onUrlSubmit}/>
