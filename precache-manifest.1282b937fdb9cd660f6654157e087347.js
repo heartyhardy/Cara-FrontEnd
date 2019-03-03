@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Cara-FrontEnd/static/js/runtime~main.c0d779a6.js"
   },
   {
-    "revision": "f894b6ba3f5b2657d0bb",
-    "url": "/Cara-FrontEnd/static/js/main.f894b6ba.chunk.js"
+    "revision": "6728e1d8d9bb53da130f",
+    "url": "/Cara-FrontEnd/static/js/main.6728e1d8.chunk.js"
   },
   {
     "revision": "2b35df61653a92cf4434",
     "url": "/Cara-FrontEnd/static/js/2.2b35df61.chunk.js"
   },
   {
-    "revision": "f894b6ba3f5b2657d0bb",
+    "revision": "6728e1d8d9bb53da130f",
     "url": "/Cara-FrontEnd/static/css/main.8b533e1e.chunk.css"
   },
   {
-    "revision": "49b871fe04e5a148a4ef2f677d835a3f",
+    "revision": "5cd807553a68d42e529c12e935f47da6",
     "url": "/Cara-FrontEnd/index.html"
   }
 ];
